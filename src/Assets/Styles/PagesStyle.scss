@@ -1,0 +1,45 @@
+$primary : #5c94bd;
+$secondary: white;
+
+.startedWraper{
+   padding: 10%;
+   text-align: center;
+}
+.titile{
+    font-family: 'Constantia', 'Open Sans', Roboto, Oxygen, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif; 
+}
+.startedCard{
+    display:flex;
+    flex-direction: row;
+    padding-top: 20px;
+}
+.cards{
+    width: 30%;
+    height: 90%;
+    margin: 15px;
+    color: $primary;
+}
+.cards :hover{
+    background-color: $primary;
+    color: $secondary;
+}
+.iconsB{
+    z-index: 90;
+    color: $primary;
+    background-color: $primary;
+}
+.iconsB :hover{
+    background-color: $secondary;
+}
+.icons{
+   font-size: 36;
+}
+.welcome{
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; 
+    color: $primary;
+    font-size: 34px;
+}
+.times{
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell;
+    color: $primary;
+}
